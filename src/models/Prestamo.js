@@ -5,7 +5,7 @@ const prestamoShema = new Schema(
     numero:{
       type: Number,
       unique:true,
-      required:true
+      required:true 
     },
     fecha: {
       type: Date,
